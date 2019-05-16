@@ -1,0 +1,12 @@
+.box{
+    width: 200PX;
+    height: 50px;
+    background-color: red;
+}
+.box .son{
+    width: 200px;
+    height: 50px;
+    border:10px solid blue;
+    /* background-color: black; */
+    box-sizing: border-box;
+}

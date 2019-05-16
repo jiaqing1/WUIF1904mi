@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    display:block;
+    width: 100%;
+    height:100%;
+    text-decoration: none;
+}
+.piad{
+    width:1226px;
+    height:auto;
+    /* background-color: red; */
+    margin:0 auto;
+}
+.piad .top{
+    height:58px;
+    /* background-color: blue; */
+}
+.piad .top .left{
+    width: auto;
+    height:58px;
+    float: left;
+    font-size: 22px;
+    line-height: 58px;
+}
+.piad .top .right{
+    width:auto;
+    height:58px;
+    float:right;
+    font-size: 22px;
+    line-height: 58px;
+}
+.piad .top .right span{
+    margin-left: 16px;
+    cursor: pointer;
+    padding:5px;
+}
+.piad .top .right span:hover{
+    /* color:#ff6700; */
+    border-bottom: 2px solid #ff6700;
+}
+.piad .bottom{
+    width:1226px;
+    height:630px;
+}
+.piad .bottom .left{
+    width: 234px;
+    height:614px;
+    /* background-color: aquamarine; */
+    float:left;
+
+    
+    
+}
+.piad .bottom .left li{
+    width:234px;
+    height:300px;
+    background-color: bisque;
+     
+}
+.piad .bottom .left li.bottom1{
+    margin:14px 0 0 0;
+}
+
+
+.piad .bottom .right li{
+    width: 234px;
+    height: 300px;
+    /* background-color:peru; */
+    float:left;
+    margin: 0 0 14px 14px;
+    
+}
+.piad .bottom .right .box{
+    width:234px;
+    height:143px;
+    /* background-color: pink; */
+}
+.piad .bottom .right a img{
+    display:block;
+    margin:0 auto 0;
+    margin-top: 20px;
+}
+.piad .bottom .right a div{
+    text-align: center;
+    line-height:40px;
+    font-size: 16px;
+}
+.piad .bottom .right a p{
+    text-align: center;
+    line-height: 12px;
+    font-size: 12px;
+    color:#b0b0b0;
+}
+.piad .bottom .right a pre{
+    text-align: center;
+    color:red;
+    line-height:30px;
+}
+.piad .bottom .right a s{
+    color:#b0b0b0;
+}
+.piad .bottom .right li .boc1 img{
+    display: block;
+    float:right;
+    margin:20px 10px 10px 10px;
+}
+.piad .bottom .right li .boc1 p{
+    margin:30px 10px 10px 20px;
+    float:left;
+}
+.piad .bottom .right li .boc1 pre{
+    margin:0 10px 10px 20px;
+    float:left;
+    color:red;
+}
+
+.smart{
+    height: 686px;
+}
+.big{
+    width: 1226px;
+    height:120px;
+    background-color: red;
+    margin: 0 auto;
+}
+.Box{
+    width:1226px;
+    height: 58px;
+    /* background-color: aquamarine; */
+    margin: 0 auto;
+}
+.Box .shang{
+    height: 58px;
+}
+.Box .shang.left1{
+    width: auto;
+    height:58px;
+    float: left;
+    font-size: 22px;
+    line-height: 58px;
+    color:#333;
+}
+.Box .bottom1{
+    height: 300px;
+    background-color: #ff6700;
+}
+
+.Box .bottom1 .list{
+    width:234px;
+    height: 300px; 
+    background-color: aqua;
+    float: left;
+    padding-top:0;
+
+
+}

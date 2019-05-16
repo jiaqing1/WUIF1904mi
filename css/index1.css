@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style:none
+}
+.bigBox{
+    width:419px;
+    height:619px;
+    background-color: red;
+    margin:0  auto;
+}
+.bigBox .top{
+    height: 65px;
+    background-color: #EEEDF3;
+}
+.bigBox .screen{
+    height:192px;
+    background-color: #383840
+}
+.bigBox .keyarea{
+    height: 362px;
+    background-color: #EEEDF3
+}
+.bigBox .keyarea .key{
+    float:left;
+    width: 103px;
+    height: 90px;
+    background-color: #EEEDF3;
+    border-bottom: 2px solid #333333;
+    border-right:2px  solid  #333333;
+    font-size:26px;
+    color:#7F7F7F;
+    line-height: 90px;
+    text-align: center
+}
+.bigBox .keyarea .key1{
+    border-right:0px;
+    background-color: #C4C3C8
+}
+.bigBox .keyarea .key2{
+    border-bottom:0px;
+}
+.bigBox .keyarea .key3{
+    background-color: #C4C3C8
+}

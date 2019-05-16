@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+    padding: 0px;
+    list-style:none;
+}
+.phone{
+    width:1226px;
+    height:100px;
+    margin:0 auto;
+}
+.phone .top{
+    width:100%;
+    height:58px;
+    /* background-color: blue; */
+    line-height:58px;
+}
+.phone .top .right{
+    float:right;
+}
+.phone .top .right:hover{
+    color: #ff670f;
+}
+.phone .bottom{
+    width: 100%;
+    height: 614px;
+    background-color: red;
+}
+.phone .bottom .box{
+    width: 234px;
+    height: 300px;
+    background-color:blue;
+    float: left;
+    margin-right: 14px;
+    margin-bottom:14px;
+}
+.phone .bottom .box2{
+    margin-right:0;
+}
+.phone .bottom .box .title{
+    width: 64px;
+    height:20px;
+    background-color: blueviolet;
+    margin: 0 auto;
+    line-height: 20px;
+    text-align: center;
+}
