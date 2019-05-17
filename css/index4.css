@@ -3,18 +3,124 @@
     padding: 0;
     list-style: none;
 }
-a{
+.piad .a{
     display:block;
     width: 100%;
     height:100%;
     text-decoration: none;
 }
+a{
+    text-decoration: none;
+}
+.bigo{
+    width:100%;
+    height: 40px;
+    background-color:#333;
+}
+.bigo .tap{
+    width:1226px;
+    height:100%;
+    /* background-color: red; */
+    margin: 0 auto;
+}
+.bigo .tap .henu{
+    height: 40px;
+    width: auto;
+    float: left;
+    /* background-color: bisque; */
+}
+.bigo .tap .henu a{
+    display:inline-block;
+    text-decoration: none;
+    line-height: 48px;
+    color:#b0b0b0;
+    font-size: 12px;
+}
+.bigo .tap .henu a:hover{
+    color:#fff;
+}
+.bigo .tap .denglu{
+    height:40px;
+    /* background-color: pink; */
+    float: right;
+}
+.bigo .tap .denglu a{
+    display:inline-block;
+    text-decoration: none;
+    line-height: 48px;
+    color:#b0b0b0;
+    font-size: 12px;
+}
+.bigo .tap .denglu a:hover{
+    color:#fff;
+}
+.bigo .shopping{
+    height:40px;
+    /* background-color:blue; */
+    float: right;
+    font-size: 12px;
+    line-height: 40px;
+}
+.bigo .tap .shopping .a{
+    display:inline-block;
+    text-decoration: none;
+    line-height: 48px;
+    color:#b0b0b0;
+}
+.qing{
+    width:1226px;
+    height:100px;
+    /* background-color:pink; */
+    margin:0 auto;
+}
+.qing .logo .left{
+    width:55px;
+    height:55px;
+    background-color:#ff6700;
+    margin-top: 22px;
+    float: left;
+    background-image:url(../img/mi-logo.png);
+    background-size: 49px 49px;
+    background-position: center;
+}
+.logo .meun{
+    width:600px;
+    height:100%;
+    /* background-color: red; */
+    float: right;
+    margin-right: 90px;
+}
+.logo .meun a{
+    line-height: 40px;
+    color:#b0b0b0;
+    font-size: 12px;
+    float:left;
+    padding:26px  10px  38px;
+}
+.logo .meun a:hover{
+    color:#ff6700;
+}
+.logo .search{
+    width:296px;
+    height:50px;
+    background-color: yellowgreen;
+    float:right;
+    margin:25px;
+}
+.lunbo{
+    width:1226px;
+    height:460px;
+    background-color: azure;
+    margin:0 auto;
+}
+
 .piad{
     width:1226px;
     height:auto;
     /* background-color: red; */
     margin:0 auto;
 }
+
 .piad .top{
     height:58px;
     /* background-color: blue; */
@@ -39,7 +145,7 @@ a{
     padding:5px;
 }
 .piad .top .right span:hover{
-    /* color:#ff6700; */
+    color:#ff6700;
     border-bottom: 2px solid #ff6700;
 }
 .piad .bottom{
@@ -87,7 +193,7 @@ a{
 .piad .bottom .right a div{
     text-align: center;
     line-height:40px;
-    font-size: 16px;
+    font-size: 13px;
 }
 .piad .bottom .right a p{
     text-align: center;
@@ -124,7 +230,7 @@ a{
 .big{
     width: 1226px;
     height:120px;
-    background-color: red;
+    /* background-color: red; */
     margin: 0 auto;
 }
 .Box{
@@ -140,21 +246,57 @@ a{
     width: auto;
     height:58px;
     float: left;
-    font-size: 22px;
+    font-size: 26px;
     line-height: 58px;
     color:#333;
 }
 .Box .bottom1{
     height: 300px;
-    background-color: #ff6700;
+    /* background-color: #ff6700; */
 }
 
 .Box .bottom1 .list{
     width:234px;
     height: 300px; 
-    background-color: aqua;
+    /* background-color: aqua; */
     float: left;
     padding-top:0;
-
-
+    margin-left:10px;
+}
+.Box .bottom1 .list a img{
+    display:block;
+    margin:0 auto 0;
+    margin-top: 20px;
+}
+.Box .bottom1 .list a div{
+    text-align: center;
+    line-height:40px;
+    font-size: 13px;
+}
+.Box .bottom1 .list a pre{
+    text-align: center;
+    color:red;
+    line-height:49px；
+}
+.Box .bottom1 .list a p{
+    text-align: center;
+    line-height: 50px;
+    font-size: 12px;
+    color:#b0b0b0;
+}
+.Box .xm div{
+    width:290px;
+    height:415px;
+    background-color: red;
+    float:left;
+    margin: 24px 14px 14px 0;
+}
+.Box .xm.xm2{
+    margin-right: 0;
+}
+.Box .xm p{
+    text-align:left;
+    font-size:12px;
+    line-height: 18px;
+    margin: 10px 10px;  
 }
